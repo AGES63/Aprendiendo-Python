@@ -1,0 +1,11 @@
+lista_pendeja = ["X1","X2","X3","X4"]
+
+for lista in dato():
+    
+    
+    
+    
+    
+    
+
+print(lista_pendeja)

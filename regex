@@ -1,0 +1,3 @@
+import re
+
+telefono = re.compile(r'\d)
