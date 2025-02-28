@@ -1,20 +1,9 @@
 #Código para obtener promedio
 
 
-
-lista = []
-
-while True:
-    elemento = input("Ingrese un elemento (o escriba 'salir' para terminar): ")
-    if type(elemento) == str:
-        break
-    lista.append(elemento)
-    
-def obtener_promedio(lista):
-    if not lista:
-        return None
+def promedio(lista):
     return sum(lista)/len(lista)
-    
 
+lista = (5, 6, 8, 4)
 
-print(obtener_promedio(lista))  
+print(promedio(lista))

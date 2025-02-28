@@ -1,5 +1,12 @@
 #Código para nombre y edad de una persona
 
-def nomed ():
-    print("Ingrese su nombre y edad: ")
-    return 
+Nombre = input("Ingrese su nombre: ")
+Edad = input("Ingrese su edad: ")
+
+def nomed (nombre, edad):
+    print("Su nombre es: " (Nombre), "Y su edad es: "(Edad))
+
+nomed(Nombre, Edad)
+   
+
+   
